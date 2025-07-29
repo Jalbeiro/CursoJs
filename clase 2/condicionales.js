@@ -115,3 +115,23 @@ else {
     console.log("La fruta no está en la lista.");
 }
     
+console.log("**********fin de condicionales**********");
+// operador ternario
+// sintaxis: condicion ? valorSiVerdadero : valorSiFalso
+// edad >= 18 ? "Eres mayor de edad" : "Eres menor de edad";
+let resultado = (edad >= 18) ? "Eres mayor de edad" : "Eres menor de edad";
+console.log(resultado); // Eres mayor de edad   
+// ternario con múltiples condiciones
+let hora = 10;
+let saludo = (hora < 12) ? "Buenos días" : (hora < 18) ? "Buenas tardes" : "Buenas noches";
+console.log(saludo); // Buenos días 
+//crear ternario que lea un numero de 1 a 7 e imprima el nombre del día de la semana
+let numeroDia = 5;  
+let diaSemana = (numeroDia === 1) ? "Lunes" :
+                (numeroDia === 2) ? "Martes" :
+                (numeroDia === 3) ? "Miércoles" :
+                (numeroDia === 4) ? "Jueves" :
+                (numeroDia === 5) ? "Viernes" :
+                (numeroDia === 6) ? "Sábado" :
+                (numeroDia === 7) ? "Domingo" : 
+                "Número inválido";
